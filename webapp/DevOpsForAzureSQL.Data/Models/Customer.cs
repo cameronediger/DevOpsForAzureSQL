@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DevOpsForAzureSQL.Data
+﻿namespace DevOpsForAzureSQL.Data.Models
 {
     public partial class Customer
     {

@@ -1,7 +1,11 @@
 /.vscode
+*.user
 /database/DevOpsForAzureSQL.Database/obj/
 /database/DevOpsForAzureSQL.Database/bin/
 /webapp/.vs/
-/webapp/bin/
-/webapp/obj/
-*.user
+/webapp/DevOpsForAzureSQL/bin/
+/webapp/DevOpsForAzureSQL/obj/
+/webapp/DevOpsForAzureSQL.Data/bin/
+/webapp/DevOpsForAzureSQL.Data/obj/
+/webapp/DevOpsForAzureSQL.Tests/bin/
+/webapp/DevOpsForAzureSQL.Tests/obj/

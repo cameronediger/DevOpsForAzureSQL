@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DevOpsForAzureSQL.Data;
+using DevOpsForAzureSQL.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
-using DevOpsForAzureSQL.Data;
 
 namespace DevOpsForAzureSQL.Pages
 {
@@ -18,7 +14,7 @@ namespace DevOpsForAzureSQL.Pages
             _context = context;
         }
 
-      public IEnumerable<Customer> Customers { get; set; } = default!; 
+        public IEnumerable<Customer> Customers { get; set; } = default!;
 
         public IActionResult OnGet()
         {
@@ -27,7 +23,7 @@ namespace DevOpsForAzureSQL.Pages
             {
                 return NotFound();
             }
-            else 
+            else
             {
                 Customers = customers;
             }

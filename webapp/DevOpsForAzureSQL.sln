@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsForAzureSQL", "DevOpsForAzureSQL.csproj", "{03162BDD-1665-43CE-A774-11747BF4C0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsForAzureSQL", "DevOpsForAzureSQL\DevOpsForAzureSQL.csproj", "{03162BDD-1665-43CE-A774-11747BF4C0D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsForAzureSQL.Data", "DevOpsForAzureSQL.Data\DevOpsForAzureSQL.Data.csproj", "{95DE5F5E-6A97-45CE-BDF8-7759904D1449}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsForAzureSQL.Tests", "DevOpsForAzureSQL.Tests\DevOpsForAzureSQL.Tests.csproj", "{D58676AD-10F3-4CE8-882A-18731B073F08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{03162BDD-1665-43CE-A774-11747BF4C0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03162BDD-1665-43CE-A774-11747BF4C0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03162BDD-1665-43CE-A774-11747BF4C0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DE5F5E-6A97-45CE-BDF8-7759904D1449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DE5F5E-6A97-45CE-BDF8-7759904D1449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DE5F5E-6A97-45CE-BDF8-7759904D1449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DE5F5E-6A97-45CE-BDF8-7759904D1449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58676AD-10F3-4CE8-882A-18731B073F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58676AD-10F3-4CE8-882A-18731B073F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58676AD-10F3-4CE8-882A-18731B073F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58676AD-10F3-4CE8-882A-18731B073F08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
