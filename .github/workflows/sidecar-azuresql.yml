@@ -40,7 +40,7 @@ jobs:
         
       - uses: azure/sql-action@v1.3
         with:
-          connection-string: "Server=localhost:Initial Catalog=DevOpsForAzureSQL;User ID=sa;Password=P@ssw0rd;" # the local connection string
+          connection-string: "Server=localhost;Initial Catalog=DevOpsForAzureSQL;User ID=sa;Password=P@ssw0rd;" # the local connection string
           project-file: './database/DevOpsForAzureSQL.Database/DevOpsForAzureSQL.Database.sqlproj' # the SQLproj file
       
       - name: run a query
