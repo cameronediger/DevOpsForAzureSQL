@@ -1,7 +1,7 @@
 # DevOpsForAzureSQL
 
-![example workflow](https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/sidecar-azuresql.yml/badge.svg)
-![example workflow](https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/build-test-sidecar.yml/badge.svg)
+[<img src="https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/sidecar-azuresql.yml/badge.svg" />](https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/sidecar-azuresql.yml)
+[<img src="https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/build-test-sidecar.yml/badge.svg" />](https://github.com/cameronediger/DevOpsForAzureSQL/actions/workflows/build-test-sidecar.yml)
 
 ## Details
 The reason for this project is to spin up a SQL Server/AzureSQL container, seed data, and run integration tests against that DB using GitHub Actions. 
